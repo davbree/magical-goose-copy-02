@@ -2,6 +2,37 @@
 title: Example Page
 layout: PageLayout
 sections:
+  - elementId: ''
+    colors: colors-f
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-a
+    badge:
+      elementId: ''
+      label: lorem-ipsum
+    title: Another Title!
+    subtitle: This Is Subtitle
+    text: Hello
+    actions:
+      - label: hey
+        url: 'https://www.stackbit.com'
+    feature:
+      type: ImageBlock
+      url: /images/hero.png
+      altText: Hero section image
+    backgroundImage:
+      elementId: ''
+      altText: lorem-ipsum
+      caption: lorem-ipsum
+      opacity: 100
+      type: ImageBlock
+    type: HeroSection
   - type: ContactSection
     variant: variant-b
     colors: colors-e
@@ -106,7 +137,7 @@ sections:
     textAlign: left
     badge:
       label: New Website
-    title: The quick, brown fox jumps over **a lazy dog**
+    title: 'The quick, brown fox jumps over **a lazy dog**'
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
