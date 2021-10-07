@@ -18,7 +18,7 @@ sections:
       label: New Website
     title: 'This Is A Big Hero **Headline**'
     text: |-
-      zzzAenean eros ipsum, interdum q!!!uis dignissim non, sollicitudin vitae nisl. Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet edsrat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      zzzAenean eros ipsum, interdum q!!!uis dignissim non, sollicitudin vitae nisl. Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet edzsrat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
     actions:
       - type: Button
         label: Get Started
