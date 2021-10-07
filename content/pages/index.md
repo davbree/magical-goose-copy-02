@@ -3,6 +3,28 @@ title: Home
 layout: PageLayout
 sections:
   - elementId: ''
+    colors: colors-a
+    width: wide
+    height: tall
+    topGap: medium
+    bottomGap: medium
+    contentWidth: large
+    contentAlignHoriz: left
+    contentAlignVert: middle
+    textAlign: left
+    variant: variant-a
+    badge:
+      elementId: ''
+      label: lorem-ipsum
+    title: About us
+    subtitle: Meet the team
+    actions: []
+    people:
+      - content/data/team/desmond-eagle.json
+      - content/data/team/dianne-ameter.json
+      - content/data/team/hilary-ouse.json
+    type: FeaturedPeopleSection
+  - elementId: ''
     colors: colors-h
     width: wide
     height: tall
@@ -76,9 +98,13 @@ sections:
     textAlign: left
     badge:
       label: New Website
-    title: 'This Is A Big Hero **Headline**'
-    text: |-
-      Aenean eros ipsum, interdum q!!!uis dignissim non, sollicitudin vitae nisl. Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    title: This Is A Big Hero **Headline**
+    text: >-
+      Aenean eros ipsum, interdum q!!!uis dignissim non, sollicitudin vitae
+      nisl. Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit
+      amet erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at
+      erat vitae interdum. Ut nec massa eget lorem blandit condimentum et at
+      risus.
     actions:
       - type: Button
         label: Get Started
