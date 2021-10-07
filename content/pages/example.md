@@ -10,7 +10,7 @@ sections:
     topGap: large
     bottomGap: none
     textAlign: left
-    title: Join our club
+    title: Join our club!
     text: >-
       We will notify you every time a shipment is heading to your neighborhood,
       and you could immediatly let us know if you want in or not.
